@@ -1,0 +1,30 @@
+Consultas retorno em json, urls:
+
+Pessoa:
+(retorna todas as pessaos GET&POST)
+http://localhost/projetos/bruno/backend/acoes/consultar_pessoa.php
+----
+Instituição
+(retorna todas instuições GET&POST)
+http://localhost/projetos/bruno/backend/acoes/consultar_instituicao.php
+---
+Startup
+(consultar todas as startups GET&POST)
+http://localhost/projetos/bruno/backend/acoes/consultar_all_startups.php
+(consultar startup pelo id_pessoa POST, necessario criar um formulario e linkar ate pagina consultar_one_startup.php)
+
+(filtro de startup condição and, todos os campos obrigatorios)saber na classe startup metodo filtro o porque dos atributos
+//varaveis necessarias get
+sp = segmento principal
+ss = segemento sceundario
+estado = estado
+publico = publico alvo
+cep = cep
+categoria = cargo função
+
+
+Requisição testada pelo postman
+http://localhost/projetos/bruno/backend/acoes/consultar_startup_filtro.php?sp=big data&ss=mobile&estado=ceara&publico=p2p&cep=62431-000&categoria=Dono
+---------
+teste de api
+//acesse http://localhost/projetos/bruno/backend/acoes/teste.php
