@@ -5,7 +5,7 @@ class Conexao
 {
     private $host = "localhost";
     private $user = "root";
-    private $senha = "";
+    private $senha = "new_password";
     private $banco = "db_bruno";
 
 
